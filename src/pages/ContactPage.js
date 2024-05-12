@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <>
       <Head
-        title={'Durgesh Chaudhary - Full Stack Developer | Contact'}
+        title={'Pulok - ML/AI Developer | Contact'}
         description={`Please find my contact details below. Find me on any of the socials mentioned or send me a direct message via the form below. Alternatively, you can also send me an email and I'll get back to you within 24 hours.`}
       />
 
@@ -22,17 +22,17 @@ const ContactPage = () => {
             </h2>
             <div className="underline"></div>
             <p>
-              If you want to work with me please fill the form below and I'll
-              get back to you within 24 hours.
+              If you want to work with me please 
               <br />
-              Alternatively, you can also drop an email at{' '}
-              <a href="mailto:48durgesh.kumar@gmail.com" title="Email Me">
-                48durgesh.kumar@gmail.com
-              </a>
+              drop an email at{' '}
+              <a href="mailto:saidurr13@gmail.com" title="Email Me">
+                saidurr13@gmail.com
+              </a> , and I'll
+              get back to you within 24 hours.
             </p>
           </div>
 
-          {/* form */}
+{/*           
           <div className="section-center">
             <form
               className="form"
@@ -40,7 +40,6 @@ const ContactPage = () => {
               method="POST"
             >
               <div className="form-center">
-                {/* name  */}
                 <article>
                   <label htmlFor="name">name</label>
                   <br />
@@ -52,7 +51,6 @@ const ContactPage = () => {
                     required
                   />
                 </article>
-                {/* email */}
                 <article>
                   <label htmlFor="email">e-mail</label>
                   <br />
@@ -64,7 +62,6 @@ const ContactPage = () => {
                     required
                   />
                 </article>
-                {/* text area */}
                 <article>
                   <label htmlFor="message">how can I help?</label>
                   <br />
@@ -83,7 +80,8 @@ const ContactPage = () => {
                 </button>
               </div>
             </form>
-          </div>
+          </div> */}
+
         </div>
       </section>
     </>
