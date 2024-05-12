@@ -51,7 +51,7 @@ const Head = ({ title, description, image }) => {
       />
       <meta
         name="twitter:creator"
-        content="@yodkwtf"
+        content="@77pulok"
         data-react-helmet="true"
       />
       <meta property="twitter:url" content={siteUrl} data-react-helmet="true" />

@@ -35,9 +35,9 @@ Variables
   --clr-font-2: #191a1d;
   --clr-font-3: #252525;
   /* primary colors */
-  --clr-primary: #008037;
-  --clr-secondary: #00995e;
-  --clr-tertiary: #a2e2be;
+  --clr-primary: #2f096c;
+  --clr-secondary: #100029;
+  --clr-tertiary: #2d0a67;
   /* shadows */
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -103,7 +103,7 @@ Variables
   --clr-body-bcg-3: #181717;
   /* white colors  */
   --clr-font: rgba(255, 255, 255, 0.9);
-  --clr-font-2: #f5f6f7;
+  --clr-font-2: #D4E2F5;
   --clr-font-3: #f0f0f0;
 
   --clr-tools-text: var(--clr-grey-7);
@@ -480,7 +480,7 @@ nav {
 }
 
 .logo h5 {
-  color: var(--clr-primary);
+  color: var(--clr-font-2);
   font-size: 1.75rem;
   letter-spacing: -1px;
   transition: var(--transition);
@@ -496,7 +496,7 @@ nav {
 }
 .nav-links .link {
   text-transform: uppercase;
-  color: var(--clr-secondary);
+  color: var(--clr-font-2);
   font-weight: bold;
   text-shadow: 1px 1px 1px var(--clr-body-bcg);
   transition: var(--transition);
@@ -698,7 +698,7 @@ header {
   font-family: var(--ff-primary);
 }
 #my-name span {
-  color: var(--clr-primary);
+  color: var(--clr-font-2);
   text-shadow: 1px 1px 1px var(--clr-font);
 }
 .hero-info p {
@@ -715,19 +715,19 @@ header {
 }
 .hero-btn {
   align-self: center;
-  border: 2px solid var(--clr-primary);
+  border: 2px solid var(--clr-font-2);
   transition: all 0.5s ease-out;
 }
 .hero-btn:last-child {
   background: transparent;
-  color: var(--clr-primary);
+  color: var(--clr-font-2);
 }
 .hero-btn:hover {
   background: transparent;
-  color: var(--clr-primary);
+  color: var(--clr-font-2);
 }
 .hero-btn:last-child:hover {
-  background: var(--clr-primary);
+  background: var(--clr-font-2);
   color: var(--clr-white);
 }
 

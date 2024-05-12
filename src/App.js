@@ -20,7 +20,7 @@ const App = () => {
         </Routes>
         <Contact />
         <Footer />
-        <Widget />
+        {/* <Widget /> */}
       </Router>
     </main>
   );

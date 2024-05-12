@@ -39,23 +39,36 @@ export const Projects = () => {
 
       {/* projects-center */}
       <div className="section-center projects-center">
-        {loading ? (
+        {/* {loading ? (
           <Loading />
         ) : (
           <>
             {projects.map((project) => (
               <SingleProject key={project.id} {...project} />
             ))}
+            This part of the page is still under development. 
+                <br/>Sorry for the inconvenience.
           </>
-        )}
+        )} */}
+        <div className="section-title">
+        <h4>
+            This part of the page is still under development. 
+            <br/>Sorry for the inconvenience.
+            <br/>
+            If you are interested in seeing my projects check out my{' '}
+              <a href="https://github.com/saidurpulok" title="My GitHub Profile">
+                Github
+              </a>.
+        </h4>
+      </div>
       </div>
 
       {/* all projects btn */}
-      <div className="btn-container">
+      {/* <div className="btn-container">
         <Link to="/projects" className="btn">
           view more <FaShareSquare className="fa" />
         </Link>
-      </div>
+      </div> */}
     </section>
   );
 };
